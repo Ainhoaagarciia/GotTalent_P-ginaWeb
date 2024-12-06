@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Radianté</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+
+    <!-- Header con logo y menú de navegación -->
+    <header>
+        <div class="logo">
+            <a href="#carrusel-contenido">
+                <img src="./img/Logo-Radianté3.png" alt="Joyería Elegante Logo"/>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#carrusel-contenido">Inicio</a></li>
+                <li><a href="#vista-productos">Best-Sellers</a>
+                    <ul>
+                        <li><a href="http://127.0.0.1:5501/index.html">Pendientes</a></li>
+                        <li><a href="http://127.0.0.1:5502/">Collares</a></li>
+                        <li><a href="#">Anillos</a></li>
+                        <li><a href="#">Pulseras</a></li>
+                    </ul>
+                </li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Gallery de imágenes con transición -->
+        <div id="carrusel-contenido">
+            <div id="carrusel-caja">
+                <div class="carrusel-elemento">
+                    <img class="imagenes" src="./img/portada1.png" > 
+                </div>
+                <div class="carrusel-elemento">   
+                    <img class="imagenes" src="./img/Black Friday3.jpeg">
+                </div>
+                <div class="carrusel-elemento">   
+                    <img class="imagenes" src="./img/carrusel_1.jpg">                        
+                </div>
+            </div>
+        </div>
+
+       <!-- Sección de Cards  -->
+        <section class="cards" id="ofertas">
+            <div class="linea-decorativa-bordes"></div>
+            <h3>¡ Descubre Nuestras Mejores Ofertas !</h3>
+            <div class="card">
+                <img src="https://cxc.es/cdn/shop/files/CXC_JWEAR00067GLGL_EC1_45c5e724-3965-421e-8b7c-2db7e1f77952.png?v=1723457846" alt="Collar elegante" class="main-img" />
+                <img src="./img/collar1.jpg" alt="Pendientes alternativos" class="hover-img" />
+                <a href="#" class="label">-20%</a>
+                <h4>Collar Vintage  </h4>
+                <p>Dorado cálido, detalles grabados, acabado brillante.</p>
+                <p><strong> 39,99 EUR </strong> <span class="precio-tachado">   49,99 EUR </span></p>
+                <div class="heart"></div>
+            </div>
+            <div class="card">
+                <img src="https://dimequemequieres.net/cdn/shop/products/Anillo-VERSALLES-ORO-modelo-05_Dime-que-me-quieres.jpg?v=1663855259&width=1100" alt="Anillo de lujo"  class="main-img"/>
+                <img src="https://dimequemequieres.net/cdn/shop/products/Anillo-Versalles-oro-bodegon-00dime-que-me-quieres.jpg?v=1720167956&width=1100" alt="Pendientes alternativos" class="hover-img" />
+                <a href="#" class="label">-50%</a>
+                <h4>Anillo de Compromiso  </h4>
+                <p>Oro blanco pulido, diamante brillante, diseño atemporal.</p>
+                <p><strong> 59,99 EUR </strong> <span class="precio-tachado">   119,99 EUR </span></p>
+                <div class="heart"></div>
+            </div>
+            <div class="card">
+                <img src="https://dimequemequieres.net/cdn/shop/products/Pendiente-FOREST-ORO-modelo-01_Dime-que-me-quieres.jpg?v=1721826343&width=1100" alt="Pendientes personalizados" class="main-img"/>
+                <img src="./img/pendientes.PNG" alt="Pendientes alternativos" class="hover-img" />
+                <a href="#" class="label">-10%</a>
+                <h4>Pendientes Personalizables  </h4>
+                <p>Oro suave, tonos personalizables, textura delicada.</p>
+                <p><strong> 31,49 EUR </strong> <span class="precio-tachado">   34,99 EUR </span></p>
+                <div class="heart"></div>
+            </div>
+            <div class="card">
+                <img src="https://dimequemequieres.net/cdn/shop/files/pendientes-earrings-beucles-oro-gold-dor-liberia-dime-jewels-que-me-quieres-03.jpg?v=1726296444&width=1100" alt="Pendientes" class="main-img"/>
+                <img src="https://dimequemequieres.net/cdn/shop/products/Pendiente-LIBERIA-oro-bodegon-01_Dime-que-me-quieres.jpg?v=1721827067&width=1100" alt="Pendientes alternativos" class="hover-img" />
+                <a href="#" class="label">-30%</a>
+                <h4>Pendientes Elegancia Pura  </h4>
+                <p>Oro rosado, diseño envolvente con piedras preciosas que brillan como gotas de luz.</p>
+                <p><strong> 28,00 EUR </strong> <span class="precio-tachado">   40,00 EUR </span></p>
+                <div class="heart"></div>
+            </div>
+            <div class="card">
+                <img src="https://www.isabelbernard.com/cdn/shop/files/ib-spoedje7dec0052_f49e59f8-9bac-40da-b60f-eb9217042b35.jpg?v=1720454357&width=1946" alt="Conjunto" class="main-img" />
+                <img src="https://www.isabelbernard.com/cdn/shop/files/ib-product-19oct-0288_f456768b-b369-4145-9b63-a3059a4a7ab7.jpg?v=1720454377&width=493" alt="Pendientes alternativos" class="hover-img" />
+                <a href="#" class="label">-40%</a>
+                <h4>Set de Joyería Minimalista  </h4>
+                <p>Cadenas doradas de estilo moderno, perfectas para cualquier ocasión.</p>
+                <p><strong> 44,99 EUR </strong> <span class="precio-tachado">   74,98 EUR </span></p>
+                <div class="heart"></div>
+            </div>
+            <div class="card">
+                <img src="https://media.istockphoto.com/id/1631394941/es/foto/conjunto-de-pendientes-de-collar-de-diamantes-blancos-y-esmeraldas-verdes.jpg?s=612x612&w=0&k=20&c=DFsTnvQJMA_wRr5XLesOsUMhuvfhZLIksoB87SHRGL8=" alt="Conjunto" class="main-img"/>
+                <img src="./img/collarverde1.jpg" alt="Pendientes alternativos" class="hover-img" />
+                <a href="#" class="label">-25%</a>
+                <h4>Conjunto Esmeralda Real  </h4>
+                <p>Elegancia en oro con gemas verdes, perfecto para destacar en cualquier evento.</p>
+                <p><strong> 37,49 EUR </strong> <span class="precio-tachado">   49,99 EUR </span></p>
+                <div class="heart"></div>
+            </div>
+        </section>
+
+        <!-- Sección "Contenedor con logo" -->
+        <section class="contenedor-imagen">
+            <div class="contenedor-vacio">
+                <img src="./img/diamante.png" alt="Imagen Central" class="imagen-central">
+            </div>
+        </section>
+
+        <!-- Sección del Video Promocional -->
+        <section id="video-promocional">
+            <div class="video-container">
+                <h3>La Elegancia de Radianté</h3>
+                <div class="linea-decorativa-bordes2" id="linea-decorativa-video"></div>
+                <p>Un vistazo al brillo y diseño único de nuestras joyas.</p>
+                <video controls autoplay muted loop>
+                    <source src="./img/Spot-Radianté.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+
+        <!-- Sección "Oferta Black Friday" -->
+        <section class="ofertas">
+            <div class="contenedor" id="descuento">
+                <div class="texto">
+                    <p class="titulo-pequeno">BLACK FRIDAY</p>
+                    <h2 class="titulo-grande">Hasta el 50% en estilos seleccionados*</h2>
+                    <p class="texto-detalle">-10% extra en 2 artículos rebajados de Black Friday</p>
+                    <p class="codigo">Código: <strong>BF2024</strong></p>
+                </div>
+                <div class="categorias">
+                    <a href="http://127.0.0.1:5501/index.html">Pendientes</a>
+                    <a href="http://127.0.0.1:5502/">Collares</a>
+                    <a href="#">Anillos</a>
+                    <a href="#">Pulseras</a>
+                </div>
+                <p class="nota">*Se aplican términos y condiciones.</p>
+            </div>
+        </section>
+
+        <!-- Sección "Vista de Productos" -->
+        <div class="vista-productos" id="vista-productos">
+            <div class="item">
+                <img src="https://baliq.com/wp-content/uploads/2024/05/aretes-mujer-web.jpg" alt="Earrings">
+                <a href="http://127.0.0.1:5501/index.html" class="label">Pendientes</a>
+            </div>
+            <div class="item">
+                <img src="https://baliq.com/wp-content/uploads/2024/05/anillos-mujer-web.jpg" alt="Rings">
+                <a href="#" class="label">Anillos</a>
+            </div>
+            <div class="item">
+                <img src="https://baliq.com/wp-content/uploads/2024/05/pulseras-mujer-web.jpg" alt="Bracelets">
+                <a href="#" class="label">Pulseras</a>
+            </div>
+            <div class="item">
+                <img src="https://baliq.com/wp-content/uploads/2024/05/collares-mujer-web.jpg" alt="Necklace">
+                <a href="http://127.0.0.1:5502/" class="label">Collares</a>
+            </div>
+        </div>
+
+        <!-- Sección "Sobre Nosotros" -->
+        <section class="sobre-nosotros" id="sobre-nosotros">
+            <div class="contenedor sobre-nosotros-contenido">
+                <div class="imagen">
+                    <img src="https://www.messika.com/media/opti_image/webp/wysiwyg/home-images/home-winter-2024-rose-bloc-duo-1.webp" alt="Imagen Representativa">
+                </div>
+                <div class="texto">
+                    <h2>Sobre Nosotros</h2>
+                    <p> Radianté nació en 2018 con la misión de ofrecer joyas de alta calidad, únicas y atemporales. Desde nuestros inicios, nos hemos dedicado a crear piezas personalizadas, utilizando solo los materiales más exclusivos y las técnicas más avanzadas. </p>
+                    <p> Especializados en anillos de compromiso, collares y pendientes, cada joya es diseñada para reflejar el estilo y la elegancia de nuestros clientes. Nuestro equipo de expertos trabaja con el compromiso de ofrecer la más alta calidad y excelencia en cada detalle. En Radianté, cada joya es mucho más que un accesorio: es un recuerdo eterno.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección "Contacto" -->
+        <section class="contacto" id="contacto">
+            <div class="contenedor contacto-contenido">
+                <div class="video">
+                    <video controls autoplay muted loop>
+                        <source src="./img/video-contacto.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="texto">
+                    <h2>Contacto</h2>
+                    <p>¿Tienes alguna pregunta? Nos encantaría saber de ti.  </p>
+                    <p>En Radianté, estamos comprometidos en brindarte la mejor experiencia. Contáctanos para consultas sobre productos, pedidos personalizados o cualquier duda que tengas.</p>
+                    <p>Puedes escribirnos a nuestro correo: </p>
+                    <p><a href="mailto:contacto@radianté.com">contacto@radianté.com</a></p>
+                    <p>o llamarnos al: <a href="tel:+34123">+34 910 123 456</a></p>
+                    <p>También puedes visitar nuestras tiendas físicas, donde estaremos encantados de atenderte.</p>
+                    <p><a href="https://www.google.com/maps">Calle Serrano, 22, Madrid, 28001</a></p>
+                    <p><a href="https://www.google.com/maps">Avenida Diagonal, 123, Barcelona, 08008</a></p>
+                </div>
+                
+            </div>
+        </section>
+
+    </main>    
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links1">
+                <h3>Menús Rápidos</h3>
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/index.html#carrusel-contenido">Inicio</a></li>
+                    <li><a href="#">Best-Sellers</a></li>
+                    <li><a href="http://127.0.0.1:5500/index.html#sobre-nosotros">Sobre Nosotros</a></li>
+                    <li><a href="http://127.0.0.1:5500/index.html#contacto">Contacto</a></li>
+                    <li><a href="#">Política de Privacidad</a></li>
+                </ul>
+            </div>
+            <div class="footer-links2">
+                <h3>Atención al Cliente</h3>
+                <ul>
+                    <li><a href="#">Preguntas Frecuentes</a></li>
+                    <li><a href="#">Términos Y Condiciones</a></li>
+                    <li><a href="#">Envíos y Devoluciones</a></li>
+                    <li><a href="#">Seguimiento del Pedido</a></li>
+                    <li><a href="#">Garantía de Producto</a></li>
+                </ul>
+            </div>
+            <div class="footer-links3">
+                <h3>Condiciones legales</h3>
+                <ul>
+                    <li><a href="#">Aviso Legal</a></li>
+                    <li><a href="#">Términos Y Condiciones</a></li>
+                    <li><a href="#">Cookies</a></li>
+                    <li><a href="#">Derechos del Usuario</a></li>
+                    <li><a href="#">Protección de Datos</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom"></div>
+            <div class="linea-decorativa-bordes2"></div>
+            <p>&copy; 2018 Radianté. Todos los derechos reservados.</p>
+            <img src="./img/Logo-Radianté3.png" alt="logo-radianté">
+            
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">  
+                    <span class="material-icons">facebook</span>
+                    </a> <!-- Icono de Facebook -->
+                <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                    <span class="material-icons">alternate_email</span>
+                    </a>  <!-- Icono de Twitter -->
+                <a href="https://www.instagram.com" target="_blank" aria-label="Instagram"> 
+                    <span class="material-icons">photo_camera</span>
+                    </a> <!-- Icono de Instagram -->
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
