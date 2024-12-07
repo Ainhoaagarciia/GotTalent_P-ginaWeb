@@ -1,10 +1,6 @@
 @font-face {
     font-family: "Alhadara";
-    src: url(alhadara/Alhadara-Regular.ttf);
-}
-@font-face {
-    font-family: "Absolute";
-    src: url(absolute_5/Absolute-Demo.ttf);
+    src: url(alhadara/Alhadara-DEMO.ttf);
 }
 
 /* Estilos generales para el cuerpo */
@@ -121,7 +117,7 @@ header nav ul li ul {
     background:#4a1a23;
     padding:0;
     width: 110px; /* Ancho del menu desplegable */
-    font-family: Aishwarya;
+    font-family: Alhadara;
 }
    
 /* items del menu desplegable */
