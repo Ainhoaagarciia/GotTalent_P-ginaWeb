@@ -116,7 +116,7 @@ header nav ul li ul {
     left: 0px;
     background:#4a1a23;
     padding:0;
-    width: 110px; /* Ancho del menu desplegable */
+    width: 140px; /* Ancho del menu desplegable */
     font-family: Alhadara;
 }
    
@@ -190,7 +190,7 @@ main {
     text-align: left;
 }
 .imagenes{
-    height: 440px;
+    height: 420px;
     width: 100%;
 }
 .carrusel-elemento {
@@ -277,7 +277,7 @@ main {
     min-height: 80px; /* Altura mínima del contenedor */
     box-sizing: border-box; /* Asegurar tamaño correcto */
     margin-bottom: -10px; /* Espaciado debajo del contenedor */
-    margin-top: -10px;
+    margin-top: -20px;
 }
 
 .contenedor-vacio {
