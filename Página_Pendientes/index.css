@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Aishwarya";
+    font-family: "Alhadara";
     src: url(alhadara/Alhadara-Regular.ttf);
 }
 @font-face {
@@ -42,7 +42,7 @@ header {
     z-index: 1000;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     flex-wrap: wrap; 
-    font-family: Aishwarya;
+    font-family: Alhadara;
    
 }
 
@@ -121,7 +121,7 @@ header nav ul li ul {
     background:#4a1a23;
     padding:0;
     width: 110px; /* Ancho del menu desplegable */
-    font-family: Aishwarya;
+    font-family: Alhadara;
 }
    
 /* items del menu desplegable */
@@ -162,7 +162,7 @@ main {
     padding: 0px;
     margin: 0 auto;
     overflow-x: hidden;
-    font-family: Aishwarya;
+    font-family: Alhadara;
 }
 /* Contenedor del contenido principal que no incluye el carrusel */
 .main-content {
