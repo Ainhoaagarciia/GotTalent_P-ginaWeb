@@ -1,11 +1,8 @@
 @font-face {
     font-family: "Alhadara";
-    src: url(alhadara/Alhadara-Regular.ttf);
+    src: url(alhadara/Alhadara-DEMO.ttf);
 }
-@font-face {
-    font-family: "Absolute";
-    src: url(absolute_5/Absolute-Demo.ttf);
-}
+
 
 /* Estilos generales para el cuerpo */
 * {
