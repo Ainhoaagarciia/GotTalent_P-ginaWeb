@@ -373,6 +373,11 @@ main {
     margin-top: 0px;
     text-shadow: 5px 5px 8px #000000;
 }
+.underline-title {
+    display: inline-block; /* Asegura que el borde respete el tamaño del texto */
+    border-bottom: 3px solid #4a1a23; /* Grosor y color del subrayado */
+    padding-bottom: 5px; /* Espaciado entre el texto y el subrayado */
+}
 
 .card {
     background-color: #5d2e36;
@@ -1357,6 +1362,11 @@ footer .social-icons a:hover {
         font-size: 1.6rem;
         margin-top: -10px;
         margin-bottom: -7px;
+    }
+    .underline-title {
+        display: inline-block; /* Asegura que el borde respete el tamaño del texto */
+        border-bottom: 3px solid #4a1a23; /* Grosor y color del subrayado */
+        padding-bottom: 5px; /* Espaciado entre el texto y el subrayado */
     }
 
     .card {
