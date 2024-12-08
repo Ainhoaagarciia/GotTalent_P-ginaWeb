@@ -822,10 +822,24 @@ footer .social-icons a:hover {
         margin: 0;
         flex-direction: column;
     }
-
+    .cards h3 {
+        font-size: 1.30rem;
+        color: #4a1a23;
+        margin-bottom: 5px;
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 25px;
+    }
     .card {
         width: 75%; /* Las cards ocupan el 100% del contenedor */
         margin-left: 46.5px;
+    }
+    .card h4 {
+        font-size: 1.2rem; /* Ajusta el tamaño del título de las cards */
+    }
+    .card p {
+        font-size: 1rem; /* Ajusta el tamaño del texto de las cards */
     }
     
     #carrusel-caja {
@@ -860,15 +874,7 @@ footer .social-icons a:hover {
         border-bottom: 3px solid #4a1a23; /* Grosor y color del subrayado */
         padding-bottom: 5px; /* Espaciado entre el texto y el subrayado */
     }
-    .cards h3 {
-        font-size: 1.30rem;
-        color: #4a1a23;
-        margin-bottom: 5px;
-        width: 100%;
-        text-align: center;
-        font-weight: bold;
-        margin-top: 10px;
-    }
+   
     footer .linea-decorativa-bordes2 {
         width: 100%; /* Línea decorativa ajustada al contenedor */
         margin: 10px auto; /* Centrada */
