@@ -1200,7 +1200,7 @@ footer .social-icons a:hover {
     }
 
     .linea-decorativa-bordes2 {
-        width: 50%; /* Línea más grande en pantallas pequeñas */
+        width: 100%; /* Línea más grande en pantallas pequeñas */
     }
 
     .contenedor-imagen,
@@ -1321,6 +1321,10 @@ footer .social-icons a:hover {
 
     body {
         font-size: 14px;
+    }
+    .imagenes{
+        height: 500px;
+        width: 100%;
     }
 
     .sobre-nosotros, .contacto {
