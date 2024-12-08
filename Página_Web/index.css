@@ -1363,6 +1363,12 @@ footer .social-icons a:hover {
         width: 75%; /* Las cards ocupan el 100% del contenedor */
         margin-left: 46.5px;
     }
+    .card h4 {
+        font-size: 1.2rem; /* Ajusta el tamaño del título de las cards */
+    }
+    .card p {
+        font-size: 1rem; /* Ajusta el tamaño del texto de las cards */
+    }
     .ofertas {
         padding: 20px 35px;
     }
