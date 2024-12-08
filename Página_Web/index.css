@@ -10,8 +10,8 @@
     box-sizing: border-box;
 }
 html {
-    scroll-behavior: smooth;
-    scroll-margin-top: -20px;
+    scroll-behavior:smooth;
+    scroll-padding-top: 100px;
     font-size: 100%; 
 }
 
