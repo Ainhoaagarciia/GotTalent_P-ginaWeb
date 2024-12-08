@@ -1418,12 +1418,12 @@ footer .social-icons a:hover {
         padding: 3px 8px;
     }
     #carrusel-caja {
-        height: 350px; /* Reducir altura del carrusel */
+        height: 300px; /* Reducir altura del carrusel */
         margin-bottom: 0px;
     }
 
     .imagenes {
-        height: 280px; /* Reducir altura de las imágenes */
+        height: 240px; /* Reducir altura de las imágenes */
     }
 
     #carrusel-contenido {
